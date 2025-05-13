@@ -90,22 +90,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ### User Interface 
-*Please describe the details about the user interface(i.e, how does the client 'see' the technical result, whether a separate user interface was developed, command line script was developed, was it validated as an experiment, can the results be seen in ERP or are they integrated into work process)*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As the development of a user interface was not the aim of this demo project, there is no separate user interface as such. The UI solutions are related to the specific tools that were used (RoboDK simulation environment and script, and Cognex In-Sight Explorer environment for machine vision). These environments were used to validate the performance of the robot workstation and to validate the quality control capability of the product.
 
 ### Future Potential of the Technical Solution
-*Please describe the potential areas for future use of the technical solution.*
-- [Use case 1],
-- [Use case 2],
-- etc... .
+
+The data collected and the solutions developed can also be used to automate the production processes of other textile companies or to apply artificial intelligence. In particular, we see similarities in the processes of sewing companies, where soft and stretchy textile materials are combined with form-holding components.
 
 ### Lessons Learned
-*Please describe the lessons learned (i.e. assessment whether the technological solution actually solved the initial challenge).*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-# Custom agreement with the AIRE team
-*If you have a unique project or specific requirements that don't fit neatly into the Docker file or description template options, we welcome custom agreements with our AIRE team. This option allows flexibility in collaborating with us to ensure your project's needs are met effectively.*
-
-*To explore this option, please contact our demonstration projects service manager via katre.eljas@taltech.ee with the subject line "Demonstration Project Custom Agreement Request - [Your Project Name]." In your email, briefly describe your project and your specific documentation or collaboration needs. Our team will promptly respond to initiate a conversation about tailoring a solution that aligns with your project goals.*
+As it is a complex end product that does not hold a fixed shape, the technical solution was to find directions to position the different elements of the product as well as possible and make them hold their shape. An intelligent jig developed for this purpose made it possible to achieve a situation where the filter bags could be well positioned to obtain a high quality end product. The solution developed during this demo project helped to solve the initial challenge well.
+In addition, the simulation tools used, the use of machine learning, the use of AI tools (during this project) helped to check the previous quality of the product, its location and the final quality of the product.
+When manufacturing complex products, it is also important to physically test the performance of the solutions and build test equipment to do so. Simulations and the use of AI tools can add the necessary additional flexibility to the robot and the intelligent fixture for such products.
+Generally, several iterations of both the simulation and the technical solution are required before a suitable and mutually satisfactory result is reached.
