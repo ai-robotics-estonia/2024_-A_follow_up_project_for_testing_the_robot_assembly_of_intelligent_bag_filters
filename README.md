@@ -37,10 +37,26 @@ During this demo project we tested the suitability of a new frame solution for t
 Another technical challenge is the integration of AI technologies into the product assembly process to ensure product quality in the assembly process and in final product control. This will require ongoing modification of the assembly program based on data from the manufacturing process to find the right position for the assemblies and not break assemblies during assembly.
 
 ### Data Sources
-*Please describe which data was used for the technological solution.*  
-- [Source 1],
-- [Source 2],
-- etc... .
+
+For implementation of the project, research articles in this field were studied and analyzed. In addition, the following software solutions were used:
+-	Cognex In-Sight Explorer and Basler Pylon software for machine vision testing and training
+-	RoboDK simulation software for robot application testing, simulation and program generation
+-	SolidWorks CAD software for intelligent fixture design and concept development
+-	Python programming language for creation and generation of robot parametric programs in RoboDK
+
+The following data was gathered during the project for the analysis and verification:
+-	production data, process information (time for assembly of filters)
+-	machine vision data (Picture data of the filters, filter elements, final product and their features) for training the model for product recognition, position detection and quality control
+-	product position data for creation of the robot´s parametric programs
+
+The algorithm for generating a program for robots and the principles for defining robot system positioning. Stages:
+-	Identifying the product on the table
+-	Determining the location of the product by the points of intersection
+-	Importing the coordinates of the coordinates into the simulation environment.
+-	Adjusting robot programs based on points
+-	Program simulation, training and verification
+
+For the Machine Vision training, the following data was gathered about the product: as the shape of the product on the table is quite well determined, it provides the basis for generating the robot program (corner of the product and pick-up point). By transferring the image program to the Cognex In-Sight Explorer system, the corresponding detection algorithms can be added, such as: Product presence check; Horizontal edge detection; Vertical edge detection; Edge intersection detection (basis for robot program zero coordinate). For the training, the dataset of product specific Pictures was used.
 
 ### AI Technologies
 *Please describe and justify the use of selected AI technologies.*
