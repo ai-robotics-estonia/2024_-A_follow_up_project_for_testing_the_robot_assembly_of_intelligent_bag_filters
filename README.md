@@ -59,10 +59,21 @@ The algorithm for generating a program for robots and the principles for definin
 For the Machine Vision training, the following data was gathered about the product: as the shape of the product on the table is quite well determined, it provides the basis for generating the robot program (corner of the product and pick-up point). By transferring the image program to the Cognex In-Sight Explorer system, the corresponding detection algorithms can be added, such as: Product presence check; Horizontal edge detection; Vertical edge detection; Edge intersection detection (basis for robot program zero coordinate). For the training, the dataset of product specific Pictures was used.
 
 ### AI Technologies
-*Please describe and justify the use of selected AI technologies.*
-- [AI technology 1],
-- [AI technology 2],
-- etc... .
+
+For each stage of the project, a detailed description has been documented, the necessary simulations have been carried out, test data have been collected (assembly data, measurement and product detection data, quality control data). The solutions have been tested and verified at different stages of the project. These are the following results:
+-	physical testing for filter bag assembly process has been carried out on intelligent fixture, data collection about forces, technical solution suitability assessment.
+-	generation of the cobot program in a simulation (RoboDK) environment, based on a script for generating the code, testing of the solution's functionality.
+-	testing machine vision functionality, collection of data on the product, evaluation of the suitability of different detection algorithms, testing of the performance of machine vision solution on a real test set-up.
+-	carried out a workplace planning in the simulation environment, created a new workstation layout, designed a cell for product positioning.
+
+Product detection, position detection and sewing lines detection is based on image recognition and it checks the position of the product based on the edges and the location and pattern of the sewing lines on the contours of the filter bag. Based on AI technology and image recognition, it decides whether the product is correct, identifies the coordinates of the filter bag and sends the commands to a collaborative robot, which selects the appropriate program and positioning for the product.
+
+Machine vision solution testing and validation.
+At the filter bag assembly workplace, it is necessary to identify the type, location and coordinates of the product to provide the collaborative robot with the necessary parameters to generate and run the assembly program. In this case, the product is a filter bag (placed on a flat surface) of a fairly fixed shape before the handling by the cobot. The cobot picks the filter bag from the material buffer, and the position of the product is not always the same. Therefore, it is important to provide the robot controller with the coordinates of the position of the bag filter. The following software and hardware have been used as a solution to the problem: Cognex camera Cognex In-Sight 7905C (color camera, 5 MP), Cognex In-Sight Explorer software, Optics Fujinon HF12.5HA-1S (C-mount), Optics Moritex LMC-ML-M2516UR (C-mount), lighting (LED, flood light, background light).
+
+Generating the robot program (RoboDK)
+The robot program uses a script to create the target points, which helps to read in the coordinates of the position of the filter bag. This is a machine learning technique that helps speed up the programming of the robot system. This is when the pattern or shape of the filter bag changes. Then, generating a new program for the robot is several times faster than doing it manually.
+It is important to use correct coordinate systems when generating waypoints and working trajectories: robot base (workobject UR20 Base), Tool TCP (workobject Tool), Workobject of the application (workobject MyWorkObject).
 
 ### Technological Results
 *Please describe the results of testing and validating the technological solution.*
