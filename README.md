@@ -7,6 +7,7 @@
 | Development Team Lead E-mail | [martins.sarkans@taltech.ee](mailto:martins.sarkans@taltech.ee) |
 | Duration of the Demonstration Project | 01.12.2024 - 30.04.2025 |
 | Final Report | [Example_report.pdf](https://github.com/ai-robotics-estonia/_project_template_/files/13800685/IC-One-Page-Project-Status-Report-10673_PDF.pdf) |
+| Link to ETIS | [Project](https://www.etis.ee/Portal/Projects/Display/a20b5d93-974d-448d-a131-61ebbcc5b651) |
 
 # Description
 ## Objectives of the Demonstration Project
