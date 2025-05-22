@@ -80,15 +80,15 @@ It is important to use correct coordinate systems when generating waypoints and 
 
 The following intelligent fixture concept was developed and tested as a result of the development of technical solutions.  This intelligent fixture was also physically realized to test the assembly process in real life. As a result of testing, a high quality final product was achieved.
 
-
+![Model](Pictures/01_fixture_solution.jpg)
 Figure 1. Intelligent fixture concept developed together with the product
 
 Testing of AI tools included testing of machine vision solutions for product quality control, filter bag location detection and for quality control of the final product. As the product assembly process could be improved by technical solutions, AI tools were introduced additionally to increase the robot's adaptability and partly for additional product quality control.
 
-
+![Model](Pictures/02_filter_bag_precheck.jpg)
 Figure 2. Pre-check and position detection of the product with a camera system 1
 
-
+![Model](Pictures/03_assembled_filter_quality_check.jpg)
 Figure 3. Final product quality control for a product with camera system 2
 
 The testing showed that the machine vision solution allows to perform pre-product inspection, position detection and quality control on the product.
@@ -98,7 +98,7 @@ The testing showed that the machine vision solution allows to perform pre-produc
 
 As a result of the mapping and analysis of the product manufacturing technology, a suitable layout for a robotic assembly workplace was proposed. Experiments were carried out to test the performance of the machine vision solution as well as the feasibility of robotic assembly. The proposed production workstation integrates (via input) with the upstream filter bag sewing line to the intelligent workplace (with the fixture and cobot) and as output moves to the finished filter (final product) packaging line.
 
-
+![Model](Pictures/04_assembly_process.jpg)
 Figure 4. Flowchart of a collaborative robot assembly workplace
 
 
