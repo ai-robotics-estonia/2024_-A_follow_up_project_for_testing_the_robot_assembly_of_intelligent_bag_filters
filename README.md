@@ -77,17 +77,29 @@ The robot program uses a script to create the target points, which helps to read
 It is important to use correct coordinate systems when generating waypoints and working trajectories: robot base (workobject UR20 Base), Tool TCP (workobject Tool), Workobject of the application (workobject MyWorkObject).
 
 ### Technological Results
-*Please describe the results of testing and validating the technological solution.*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The following intelligent fixture concept was developed and tested as a result of the development of technical solutions.  This intelligent fixture was also physically realized to test the assembly process in real life. As a result of testing, a high quality final product was achieved.
+
+
+Figure 1. Intelligent fixture concept developed together with the product
+
+Testing of AI tools included testing of machine vision solutions for product quality control, filter bag location detection and for quality control of the final product. As the product assembly process could be improved by technical solutions, AI tools were introduced additionally to increase the robot's adaptability and partly for additional product quality control.
+
+
+Figure 2. Pre-check and position detection of the product with a camera system 1
+
+
+Figure 3. Final product quality control for a product with camera system 2
+
+The testing showed that the machine vision solution allows to perform pre-product inspection, position detection and quality control on the product.
+
 
 ### Technical Architecture
-*Please describe the technical architecture (e.g, presented graphically, where the technical solution integration with the existing system can also be seen).*
-- [Component 1],
-- [Component 2], 
-- etc... .
 
-![backend-architecture](https://github.com/ai-robotics-estonia/_project_template_/assets/15941300/6d405b21-3454-4bd3-9de5-d4daad7ac5b7)
+As a result of the mapping and analysis of the product manufacturing technology, a suitable layout for a robotic assembly workplace was proposed. Experiments were carried out to test the performance of the machine vision solution as well as the feasibility of robotic assembly. The proposed production workstation integrates (via input) with the upstream filter bag sewing line to the intelligent workplace (with the fixture and cobot) and as output moves to the finished filter (final product) packaging line.
+
+
+Figure 4. Flowchart of a collaborative robot assembly workplace
 
 
 ### User Interface 
