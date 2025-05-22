@@ -6,7 +6,7 @@
 | Development Team Lead Name | [Martinš Sarkans, PhD](https://www.etis.ee/CV/Martins_Sarkans/eng/) |
 | Development Team Lead E-mail | [martins.sarkans@taltech.ee](mailto:martins.sarkans@taltech.ee) |
 | Duration of the Demonstration Project | 01.12.2024 - 30.04.2025 |
-| Final Report | [3 Demo lõpparaunne_Vado Filters v02.pdf](https://github.com/ai-robotics-estonia/2024_-A_follow_up_project_for_testing_the_robot_assembly_of_intelligent_bag_filters/tree/main/Documents/3 Demo lõpparaunne_Vado Filters v02.pdf) |
+| Final Report | [3 Demo lõpparaunne_Vado Filters v02.pdf](https://github.com/ai-robotics-estonia/2024_-A_follow_up_project_for_testing_the_robot_assembly_of_intelligent_bag_filters/tree/main/Documents/Demo_Final_Raport_Vado Filters_v02.pdf) |
 | Link to ETIS | [Project](https://www.etis.ee/Portal/Projects/Display/a20b5d93-974d-448d-a131-61ebbcc5b651) |
 
 # Description
