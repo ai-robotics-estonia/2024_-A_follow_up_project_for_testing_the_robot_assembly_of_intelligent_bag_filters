@@ -1,4 +1,4 @@
-# [A follow-up project for testing the robot assembly of intelligent bag filters at the company Vado Filters OÜ]
+# A follow-up project for testing the robot assembly of intelligent bag filters at the company Vado Filters OÜ
 
 ## Summary
 | Company Name | [Vado Filters OÜ](https://website.link) |
@@ -12,18 +12,18 @@
 # Description
 ## Objectives of the Demonstration Project
 
-The aim of the demonstration project was to continue the development and testing of an intelligent robotic assembly workstation to produce bag filters at Vado Filters OÜ.
+The aim of the demonstration project was to continue the validating and testing of an intelligent robotic assembly workstation to produce bag filters at Vado Filters OÜ.
 During the testing in the first demo project, it revealed bottlenecks in the compatibility between the existing filter frame and the robot workstation. It was concluded that automation of the workstation with the existing filter-frame solution was not feasible.
 
 Thus, Vado Filters OÜ has invested in a new frame solution and has a new frame prototype that will enable robotic workplace assembly of filters and improve the quality of the final product.
-The aim of this demo project was to develop and test the robotic installation of bag filter pockets in a new frame solution and the attachment of the frame and the filter material in such a way that the required quality (no leaks and all components intact) is guaranteed.
+The aim of this demo project was to validate and test the robotic installation of bag filter pockets in a new frame solution and the attachment of the frame and the filter material in such a way that the required quality (no leaks and all components intact) is guaranteed.
 
 ## Activities and Results of the Demonstration Project
 
 Project activities and results:
 1. The first step was to specify the technical task, map the assembly operations and describe them. This provided the necessary information for the development of an intelligent fixture for the product and for the selection of a collaborative robot.
 2. In the second phase, work started on the development of ideas for fixing the frame and filter bags. This involved testing the suitability and performance of different technical solutions to achieve the expected quality and repeatability of the assembly.
-3. The third phase included the development of an intelligent fixture concept for the installation of the top and bottom frames. This solution was also physically implemented to test the real assembly process and its performance.
+3. The third phase included generating a solution of an intelligent fixture concept for the installation of the top and bottom frames. This solution was also physically implemented to test the real assembly process and its performance.
 4. In the fourth step, a virtual model of the workplace was created and simulated. For this purpose, the RoboDK software was used to check the robot's operating range and cycle duration.
 5. In the last step, the assembly cell was tested with the product, data collection, data analysis and model verification were performed. This involved the use of AI tools such as machine vision to perform product identification on the workbench (supplying the coordinates of the product to the collaborative robot), pre-production quality control of the filter bag (location and presence of seams), and quality control of the final product assembly (presence of all filter bags in the assembly).
 
@@ -33,7 +33,7 @@ Now, the frame is assembled by hand from various parts (using profiles and corne
 
 The fitting of the plastic joint is carried out by manual installation using a manually operated pneumatic tool to close the lock of the plastic joint. The interconnected pockets are manually inserted into the U-profile of the filter frame and secured with plastic clips, which ensure that the material remains firmly in place and provides the required air density for the filter. The fastening clips are then manually inserted into the frame and fastened either by finger force or with a pneumatic tool.
 
-During this demo project we tested the suitability of a new frame solution for the creation of a smart robot assembly workplace. The challenge in developing the technical solution is to attach non-shape-holding textiles to the solid frame and to close the frame in such a way that the quality of the final product is guaranteed. All the manual activities described above will be addressed by an automated smart and self-configuring Workstation (intelligent fixture solution).
+During this demo project we tested the suitability of a new frame solution for the creation of a smart robot assembly workplace. The challenge in validating the technical solution is to attach non-shape-holding textiles to the solid frame and to close the frame in such a way that the quality of the final product is guaranteed. All the manual activities described above will be addressed by an automated smart and self-configuring Workstation (intelligent fixture solution).
 
 Another technical challenge is the integration of AI technologies into the product assembly process to ensure product quality in the assembly process and in final product control. This will require ongoing modification of the assembly program based on data from the manufacturing process to find the right position for the assemblies and not break assemblies during assembly.
 
@@ -42,7 +42,7 @@ Another technical challenge is the integration of AI technologies into the produ
 For implementation of the project, research articles in this field were studied and analyzed. In addition, the following software solutions were used:
 -	Cognex In-Sight Explorer and Basler Pylon software for machine vision testing and training
 -	RoboDK simulation software for robot application testing, simulation and program generation
--	SolidWorks CAD software for intelligent fixture design and concept development
+-	SolidWorks CAD software for intelligent fixture design and concept generation
 -	Python programming language for creation and generation of robot parametric programs in RoboDK
 
 The following data was gathered during the project for the analysis and verification:
@@ -78,10 +78,10 @@ It is important to use correct coordinate systems when generating waypoints and 
 
 ### Technological Results
 
-The following intelligent fixture concept was developed and tested as a result of the development of technical solutions.  This intelligent fixture was also physically realized to test the assembly process in real life. As a result of testing, a high quality final product was achieved.
+The following intelligent fixture concept was validated and tested as a result of the implemenmtation of technical solutions.  This intelligent fixture was also physically realized to test the assembly process in real life. As a result of testing, a high quality final product was achieved.
 
 ![Model](Pictures/01_fixture_solution.jpg)
-Figure 1. Intelligent fixture concept developed together with the product
+Figure 1. Intelligent fixture concept generated together with the product
 
 Testing of AI tools included testing of machine vision solutions for product quality control, filter bag location detection and for quality control of the final product. As the product assembly process could be improved by technical solutions, AI tools were introduced additionally to increase the robot's adaptability and partly for additional product quality control.
 
@@ -108,11 +108,11 @@ As the development of a user interface was not the aim of this demo project, the
 
 ### Future Potential of the Technical Solution
 
-The data collected and the solutions developed can also be used to automate the production processes of other textile companies or to apply artificial intelligence. In particular, we see similarities in the processes of sewing companies, where soft and stretchy textile materials are combined with form-holding components.
+The data collected and the solutions validated can also be used to automate the production processes of other textile companies or to apply artificial intelligence. In particular, we see similarities in the processes of sewing companies, where soft and stretchy textile materials are combined with form-holding components.
 
 ### Lessons Learned
 
-As it is a complex end product that does not hold a fixed shape, the technical solution was to find directions to position the different elements of the product as well as possible and make them hold their shape. An intelligent jig developed for this purpose made it possible to achieve a situation where the filter bags could be well positioned to obtain a high quality end product. The solution developed during this demo project helped to solve the initial challenge well.
+As it is a complex end product that does not hold a fixed shape, the technical solution was to find directions to position the different elements of the product as well as possible and make them hold their shape. An intelligent jig generated for this purpose made it possible to achieve a situation where the filter bags could be well positioned to obtain a high quality end product. The solution validated during this demo project helped to solve the initial challenge well.
 In addition, the simulation tools used, the use of machine learning, the use of AI tools (during this project) helped to check the previous quality of the product, its location and the final quality of the product.
 When manufacturing complex products, it is also important to physically test the performance of the solutions and build test equipment to do so. Simulations and the use of AI tools can add the necessary additional flexibility to the robot and the intelligent fixture for such products.
 Generally, several iterations of both the simulation and the technical solution are required before a suitable and mutually satisfactory result is reached.
